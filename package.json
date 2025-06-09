@@ -1,0 +1,14 @@
+{
+  "name": "hire-ai",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "frontend": "npm run dev --workspace=frontend",
+    "backend": "npm run dev --workspace=backend"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
