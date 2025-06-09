@@ -1,6 +1,6 @@
 # Backend Functions (AWS Lambda)
 
-This directory contains the serverless functions for the Hire AI project, intended for deployment to AWS Lambda.
+This directory contains the serverless functions for the Rizz Work project, intended for deployment to AWS Lambda.
 
 ## Purpose
 
