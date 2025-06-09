@@ -7,7 +7,7 @@ This document provides an overview of the project structure, architecture, and a
 ## Architecture Overview
 
 - **Monorepo**: The project is structured as a monorepo using npm workspaces, containing the `frontend` and `backend` packages.
-- **Frontend**: Built with Next.js and follows the **Feature-Sliced Design (FSD)** architecture for scalability and maintainability.
+- **Frontend**: Built with React.js and follows the **Feature-Sliced Design (FSD)** architecture for scalability and maintainability.
 - **Backend**: A serverless architecture using **AWS Lambda** for custom business logic and AI processing.
 - **Database & Auth**: **Supabase** is used for the PostgreSQL database, user authentication, and real-time capabilities. The frontend will interact directly with Supabase for most data operations.
 
@@ -18,7 +18,7 @@ Here is a detailed breakdown of the folder structure:
 ```
 /
 |-- packages/
-|   |-- frontend/         # Next.js frontend application
+|   |-- frontend/         # React.js frontend application
 |   |   |-- src/
 |   |   |   |-- app/        # FSD 'app' & 'pages' layers: Routing, global styles, providers
 |   |   |   |-- widgets/    # FSD 'widgets' layer: Composite UI components (e.g., Header, VacancyList)
