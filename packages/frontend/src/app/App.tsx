@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom'
-import { LandingPage, AuthPage, DashboardPage } from '../pages'
+import { LandingPage, AuthPage, DashboardPage, EmailConfirmPage } from '../pages'
 import { Header } from '../widgets/Header'
 
 export const App: React.FC = () => {
@@ -10,6 +10,7 @@ export const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/auth" element={<AuthPage />} />
+        <Route path="/auth/confirm" element={<EmailConfirmPage />} />
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

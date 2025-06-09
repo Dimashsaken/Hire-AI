@@ -35,6 +35,7 @@ export const AuthByEmail: React.FC<AuthByEmailProps> = ({
             data: {
               full_name: fullName,
             },
+            emailRedirectTo: `${import.meta.env.VITE_APP_URL || 'https://rizz-ai-work-dms3zc1e0-dimashs-projects-05865a53.vercel.app'}/auth/confirm`,
           },
         })
 
