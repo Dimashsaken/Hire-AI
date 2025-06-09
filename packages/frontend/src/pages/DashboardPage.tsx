@@ -1,14 +1,8 @@
 import React from 'react'
-import { Button } from '@/shared/ui/Button'
 import { Header } from '@/widgets/Header/ui/Header'
 import { ProspectList } from '@/widgets/ProspectList/ui/ProspectList'
 
 export const DashboardPage: React.FC = () => {
-  const handleLogout = () => {
-    // TODO: Implement logout functionality with Supabase
-    window.location.href = '/'
-  }
-
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
